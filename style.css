@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 211, 0);
+}
+
+.whitebox {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.img {
+    background-image: url('./images/blackhathacker.png');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.border {
+    border: 5px solid white;
+}
+
+.d-none {
+    display: none;
+}
+
+.dashed {
+    background-color: violet;
+    border-style: dashed;
+}
